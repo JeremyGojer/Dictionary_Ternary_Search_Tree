@@ -26,10 +26,9 @@ public class Test {
 		
 		File file;
 		try {
-			file = new File("C:\\Users\\Jeremy\\Desktop\\words.txt");
+			file = new File("words.txt");
 			tst.parseFile(file);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println("Ready for searching");
